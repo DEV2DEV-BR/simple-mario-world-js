@@ -61,7 +61,7 @@ body.addEventListener("keypress", (event) => {
       mario.style.bottom = "320px";
 
       setTimeout(() => {
-        audioEffects.volume = 0.15;
+        audioEffects.volume = 1;
         audioEffects.play();
 
         mario.style.bottom = "120px";
